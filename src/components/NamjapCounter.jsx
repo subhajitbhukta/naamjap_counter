@@ -153,14 +153,14 @@ export default function NamjapCounter() {
             <div className="text-center space-y-6 z-10">
                 {/* Title */}
                 <div className="mb-6">
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-wider">
+                    <h1 className="text-3xl md:text-6xl font-bold text-white mb-4 tracking-wider">
                         NAMJAP COUNTER
                     </h1>
                 </div>
 
                 {/* Counter Display */}
                 <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-blue-300/20 shadow-2xl">
-                    <div className="text-8xl md:text-9xl font-bold text-white font-mono tracking-wider drop-shadow-lg">
+                    <div className="text-3xl md:text-9xl font-bold text-white font-mono tracking-wider drop-shadow-lg">
                         {count.toLocaleString()}
                     </div>
                 </div>
